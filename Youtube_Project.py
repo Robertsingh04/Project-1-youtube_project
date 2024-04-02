@@ -170,7 +170,7 @@ def channel_details(channel_id):
 def channels_table():
     config ={
         'user':'root', 'password':'Roman@9804r',
-        'host':'127.0.0.1','database':'Sample_Youtube_data'
+        'host':'127.0.0.1','database':'Sample_Youtube_Data'
     }
 
     connection =mysql.connector.connect(**config)
@@ -236,7 +236,7 @@ def channels_table():
 def playlist_table():
     config ={
     'user':'root', 'password':'Roman@9804r',
-    'host':'127.0.0.1','database':'Sample_Youtube_data'
+    'host':'127.0.0.1','database':'Sample_Youtube_Data'
     }
 
     connection =mysql.connector.connect(**config)
@@ -293,7 +293,7 @@ def playlist_table():
 def videos_table():
     config ={
     'user':'root', 'password':'Roman@9804r',
-    'host':'127.0.0.1','database':'Sample_Youtube_data'
+    'host':'127.0.0.1','database':'Sample_Youtube_Data'
     }
 
     connection =mysql.connector.connect(**config)
@@ -374,7 +374,7 @@ def videos_table():
 def comments_table():
         config ={
         'user':'root', 'password':'Roman@9804r',
-        'host':'127.0.0.1','database':'Sample_Youtube_data'
+        'host':'127.0.0.1','database':'Sample_Youtube_Data'
         }
 
         connection =mysql.connector.connect(**config)
